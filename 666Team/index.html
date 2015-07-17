@@ -4,32 +4,32 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css"/>
     <link href="//cdn.bootcss.com/normalize/3.0.3/normalize.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
     <title></title>
 </head>
 <body>
-<div class="content">
-<header>
-    <nav>
-        <div class="logo"><a href="index.html">666Team</a></div>
-        <ul>
-            <li><a href="index.html">首页</a></li>
-            <li><a href="#">文章</a></li>
-            <li><a href="#">作品</a></li>
-            <li><a href="#">关于</a></li>
-        </ul>
-    </nav>
-    <div class="banner">
-        <h2>666Team</h2>
+<div id="content">
+    <section id="intro">
+        <nav>
+            <div class="logo"><a href="index.html">666Team</a></div>
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="#">文章</a></li>
+                <li><a href="#">作品</a></li>
+                <li><a href="#">关于</a></li>
+            </ul>
+        </nav>
+        <div class="banner container">
+            <h2>666Team</h2>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            A aperiam aut beatae consequuntur culpa cupiditate doloremque fuga id,
-            nostrum officia officiis, optio quam quas quia, repellat ut vel vero voluptatum!</p>
-        <button class="button">开始</button>
-        <div class="more"><a href="#">更多</a></div>
-    </div>
-</header>
-<div id="main">
-    <section class="first">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                A aperiam aut beatae consequuntur culpa cupiditate doloremque fuga id,
+                nostrum officia officiis, optio quam quas quia, repellat ut vel vero voluptatum!</p>
+            <button class="button">开始</button>
+            <a href="#first" class="angle"><i class="fa fa-angle-down"></i></a>
+        </div>
+    </section>
+    <section id="first">
         <h2>标题1</h2>
 
         <h3>副标题:爱6的孩子都是好孩子</h3>
@@ -40,8 +40,9 @@
             <li>item2</li>
             <li>item3</li>
         </ul>
+        <a href="#second" class="angle"><i class="fa fa-angle-down"></i></a>
     </section>
-    <section class="second">
+    <section id="second">
         <div class="article clearfix">
             <div class="article_img">
                 <img src="img/pic01.jpg" alt="pic01"/>
@@ -52,7 +53,6 @@
                 <h3>这是副标题副标题副标题</h3>
 
                 <p>这是一段介绍介绍介绍。这是一段介绍介绍介绍。这是一段介绍介绍介绍。这是一段介绍介绍介绍。
-                    这是一段介绍介绍介绍。这是一段介绍介绍介绍。这是一段介绍介绍介绍。这是一段介绍介绍介绍。
                     这是一段介绍介绍介绍。这是一段介绍介绍介绍。这是一段介绍介绍介绍。这是一段介绍介绍介绍。</p>
             </div>
         </div>
@@ -63,7 +63,6 @@
                 <h3>这是副标题副标题副标题</h3>
 
                 <p>这是一段介绍介绍介绍。这是一段介绍介绍介绍。这是一段介绍介绍介绍。这是一段介绍介绍介绍。
-                    这是一段介绍介绍介绍。这是一段介绍介绍介绍。这是一段介绍介绍介绍。这是一段介绍介绍介绍。
                     这是一段介绍介绍介绍。这是一段介绍介绍介绍。这是一段介绍介绍介绍。这是一段介绍介绍介绍。</p>
             </div>
             <div class="article_img">
@@ -80,12 +79,11 @@
                 <h3>这是副标题副标题副标题</h3>
 
                 <p>这是一段介绍介绍介绍。这是一段介绍介绍介绍。这是一段介绍介绍介绍。这是一段介绍介绍介绍。
-                    这是一段介绍介绍介绍。这是一段介绍介绍介绍。这是一段介绍介绍介绍。这是一段介绍介绍介绍。
                     这是一段介绍介绍介绍。这是一段介绍介绍介绍。这是一段介绍介绍介绍。这是一段介绍介绍介绍。</p>
             </div>
         </div>
     </section>
-    <section class="third">
+    <section id="third">
         <div class="container">
             <h2>这是一个标题题</h2>
 
@@ -141,10 +139,10 @@
             </div>
         </div>
     </section>
+    <footer>
+        <p>Made with <a href="https://github.com/mujiangliu/666team" class="heart" style="color: #ed3050;"><i class="fa fa-heart"></i></a> by 666 Team，最后更新于2015年7月16日</p>
+    </footer>
 </div>
-<footer>
-    <p>Made with <i style="color: #d43f57;">heart</i> by 666 Team，最后更新于2015年7月16日</p>
-</footer>
-</div>
+<script type="text/javascript" src="js/fullpage.js"></script>
 </body>
 </html>
